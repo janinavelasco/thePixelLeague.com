@@ -1,0 +1,21 @@
+The Pixel League
+Logo
+
+Tagline
+  Handcrafted, Mobile first, responsive websites.
+
+Contact
+  Name
+  Email
+  How can we help? 
+
+About us
+  We are a small group of designers and developers, based out of Detroit, Michigan. We believe
+  that to produce the best work possible, you have to be hardworking, open, and honest. We work 
+  with small or medium sized businesses to help them craft their ideal online presense.  
+
+Our process
+  We'll work with you as much or as little as you'd like. We can take your idea and run with it, or 
+  can loop you in every step of the way.
+Blog
+  <link to seperate site>
