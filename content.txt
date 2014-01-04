@@ -12,10 +12,16 @@ Contact
 About us
   We are a small group of designers and developers, based out of Detroit, Michigan. We believe
   that to produce the best work possible, you have to be hardworking, open, and honest. We work 
-  with small or medium sized businesses to help them craft their ideal online presense.  
+  with small or medium sized businesses to help them craft their ideal online presense.
+
+  pictures of ourselves with an email address.
 
 Our process
   We'll work with you as much or as little as you'd like. We can take your idea and run with it, or 
   can loop you in every step of the way.
+
+List of example sites
+  (once we have some)
+
 Blog
   <link to seperate site>
