@@ -1,7 +1,7 @@
 thePixelLeague.com
 ==================
 
-I started this in Silex I don't know if that is actually what we want but It wasn't to bad just to set up a skeleton.
+I started this in Silex I don't know if that is actually what we want but It wasn't too bad just to set up a skeleton.
 
 The Pages as in where the html would go would be in the templates/ directory. I made HomePage.twig you can look at http://twig.sensiolabs.org/doc/templates.html
 to get a better idea of how to use the templates most of that stuff isn't nessecary to know for you guys. Basically just treat it like a
