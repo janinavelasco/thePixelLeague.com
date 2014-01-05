@@ -14,5 +14,10 @@
             "name": "Byron Nagi",
             "email": "byronnagi@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-0": {
+            "ThePixelLeague": "src"
+        }
+    }
 }
