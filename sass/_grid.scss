@@ -1,0 +1,46 @@
+@import "susy";
+
+$total-columns	: 4;
+$column-width	: 4em;								// each column is 4em wide
+$gutter-width	: .25em;								// 1em gutters between columns
+$grid-padding	: 0.1em;
+
+$mouse-columns	: 6;
+$mouse-width	: 30em;								// 30em = 480px by default
+$mouse-padding	: 0.1em;
+$mouse		: $mouse-width $mouse-columns;
+
+$cat-columns  : 6;
+$cat-width  : 36em;                            // 30em = 480px by default
+$cat-padding  : 0.1em;
+$cat    : $cat-width $cat-columns;
+
+$crocodile-columns	: 9;
+$crocodile-width	: 48em;                    // 48em = 768px by default
+$crocodile-padding	: 0.1em;
+$crocodile 		: $crocodile-width $crocodile-columns;
+
+$horse-columns: 12;
+$horse-width	 : 52em;                           // 52em = 832px
+$horse-padding: 0.1em;
+$horse		 : $horse-width $horse-columns;
+ 
+$rhino-columns: 12;
+$rhino-width   : 58em;                       // 58em = 928px
+$rhino-padding: 0.1em;
+$rhino     : $rhino-width $rhino-columns;
+
+$mammoth-columns: 12;
+$mammoth-width	 : 62em;
+$mammoth-padding: 0.1em;
+$mammoth		 : $mammoth-width $mammoth-columns;
+
+$whale-columns: 12;
+$whale-width	: 76.5em;                           // 76.5em = 1224px
+$whale-padding	: 10em;
+$whale 		: $whale-width $whale-columns;
+
+
+$container-style: fluid;
+
+$showGridBackground: FALSE;
