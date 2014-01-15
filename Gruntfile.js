@@ -31,11 +31,20 @@ module.exports = function(grunt) {
         }
       },
       js: {
-        files: 'js/*.js',
+        files: [ 
+          'js/*.js'
+        ],
         tasks: ['uglify'],
         options: {
           livereload: true 
         } 
+      },
+      html: {
+        files: 'templates/*.twig',
+        tasks: [],
+        options: {
+          livereload: true
+        }
       }
     }
   });
