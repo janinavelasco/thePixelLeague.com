@@ -1,1 +1,7 @@
+.sass-cache/
 vendor/
+bower_components/
+composer.phar
+node_modules/
+public/
+*.swp
