@@ -1,0 +1,20 @@
+{
+  "name": "thePixelLeague.com",
+  "version": "1.0.0",
+  "authors": [
+    "Rob Copeland <copeland.robert@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "jquery.lazyload": "*"
+  } 
+}
+
