@@ -30,8 +30,10 @@ Frontend Setup
 
 Need: 
   Ruby, Rubygems, Sass, Compass, modular-scale
+  
 Run:
-  npm install, bower install 
+  npm install, bower install
+  
 Building: 
   Run grunt watch in the root directory to watch all sass and js files for 
   changes. Livereload is enabled.
