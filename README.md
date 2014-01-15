@@ -11,6 +11,9 @@ I didn't make anything for CSS or JS but they would just be their own directorie
 is nothing like Pake or all that if you make a js file you need include them individually same with CSS. We don't have to end up using this
 I was just bored so I thought I'd start us somewhere.
 
+Backend Setup
+-------------
+
 Just clone it down run/install composer if you don't have it:
 
 `curl -sS https://getcomposer.org/installer | php`
@@ -21,3 +24,14 @@ Just clone it down run/install composer if you don't have it:
  
  
  If that is all done set up a vhost ect.. and it should run.
+
+Frontend Setup
+--------------
+
+Need: 
+  Ruby, Rubygems, Sass, Compass, modular-scale
+Run:
+  npm install, bower install 
+Building: 
+  Run grunt watch in the root directory to watch all sass and js files for 
+  changes. Livereload is enabled.
