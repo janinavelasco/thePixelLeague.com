@@ -1,0 +1,36 @@
+header
+  +clearfix
+  +padding-leader(1)
+  +padding-trailer(1)
+.menu-button
+  +span-columns(1 omega)
+  border: none 
+  background: none
+  color: $black
+  margin: 0
+  padding: 0
+nav
+  +span-columns(4 omega)
+  display: none
+nav ul li
+  display: inline
+  +span-columns(1)
+  +padding-leader(1)
+  &:last-child
+    +span-columns(1 omega)
+.hero
+  +span-columns(4)
+  +padding-leader(1)
+  +padding-trailer(1)
+  font-family: $serif
+  +adjust-font-size-to(ms(2))
+  +adjust-leading-to(1)
+  text-align: center
+  background-color: lightgrey
+  background: url('http://www.placehold.it/250x250') top left no-repeat
+  background-size: 100% 100%
+  color: $white
+  +at-breakpoint($mouse)
+    +adjust-font-size-to(ms(3))
+  +at-breakpoint($cat)
+    +adjust-font-size-to(ms(3.5))

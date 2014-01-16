@@ -14,7 +14,8 @@
   ],
   "dependencies": {
     "jquery": "*",
-    "jquery.lazyload": "*"
+    "jquery.lazyload": "*",
+    "jquery.localScroll": "*"
   } 
 }
 

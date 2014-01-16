@@ -1,0 +1,51 @@
+// colors
+$white: #FFF
+$black: #242424
+$grey: #CCC
+// breakpoints
+$mouse: 550px 8
+$cat: 950 12
+
+//grid config
+$total-columns: 4 
+$grid-padding: 1em 
+
+//vertical rhythm config
+$base-font-size: 16px 
+$base-line-height: 20.8px
++establish-baseline()
+//typography
+$sans: Helvetica, Arial, sans-serif
+$serif: Times, "Times New Roman", serif
+
+//modular scale config
+$ms-base: 16px 
+$ms-ration: golden
+
+//whole site styling
+html
+  background-color: white //for susy purposes
+.page
+  +container()
+  +susy-grid-background
+  +at-breakpoint($mouse)
+    +container
+    +susy-grid-background
+  +at-breakpoint($cat)
+    +container
+    +susy-grid-background
+h2, .menu-button, nav ul li
+  font-family: $sans
+  font-weight: bold
+  +adjust-font-size-to(ms(-1))
+header h2, section h2
+  +span-columns(3)
+  text-transform: uppercase
+section h2
+  +span-columns(4)
+  +padding-leader(1)
+  +padding-trailer(1)
+section p
+  +adjust-font-size-to(ms(1)) 
+  +adjust-leading-to(1.1)
+  text-align: center

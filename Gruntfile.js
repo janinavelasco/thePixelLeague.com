@@ -16,7 +16,8 @@ module.exports = function(grunt) {
         files: {
           'public/js/main.min.js': [
             'bower_components/jquery/jquery.min.js',
-            'bower_components/jquery.lazyload.js',
+            'bower_components/jquery.lazyload/jquery.lazyload.js',
+            'bower_components/jquery.scrollTo/jquery.scrollTo.js',
             'js/*.js'
           ]
         }
@@ -31,11 +32,20 @@ module.exports = function(grunt) {
         }
       },
       js: {
-        files: 'js/*.js',
+        files: [ 
+          'js/*.js'
+        ],
         tasks: ['uglify'],
         options: {
           livereload: true 
         } 
+      },
+      html: {
+        files: 'templates/*.twig',
+        tasks: [],
+        options: {
+          livereload: true
+        }
       }
     }
   });
