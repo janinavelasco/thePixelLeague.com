@@ -1,19 +1,7 @@
-html
-  background-color: white //for susy purposes
-.page
-  +container()
-  +susy-grid-background
 header
   +clearfix
   +padding-leader(1)
   +padding-trailer(1)
-h2, .menu-button, nav ul li
-  font-family: $sans
-  font-weight: bold
-  +adjust-font-size-to(ms(-1))
-header h2
-  +span-columns(3)
-  text-transform: uppercase
 .menu-button
   +span-columns(1 omega)
   border: none 
@@ -42,5 +30,7 @@ nav ul li
   background: url('http://www.placehold.it/250x250') top left no-repeat
   background-size: 100% 100%
   color: $white
-.theteam 
-  font-family: $serif
+  +at-breakpoint($mouse)
+    +adjust-font-size-to(ms(3))
+  +at-breakpoint($cat)
+    +adjust-font-size-to(ms(3.5))

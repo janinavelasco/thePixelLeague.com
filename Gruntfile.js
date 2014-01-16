@@ -16,7 +16,8 @@ module.exports = function(grunt) {
         files: {
           'public/js/main.min.js': [
             'bower_components/jquery/jquery.min.js',
-            'bower_components/jquery.lazyload.js',
+            'bower_components/jquery.lazyload/jquery.lazyload.js',
+            'bower_components/jquery.scrollTo/jquery.scrollTo.js',
             'js/*.js'
           ]
         }
