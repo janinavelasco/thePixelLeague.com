@@ -1,19 +1,11 @@
 .theteam 
   font-family: $serif
 .bio img
+  +grid-span(4,1)
   margin: 0 auto
   height: auto
   border-radius: 50%
-  +span-columns(4)
   +padding-leader(1)
   +padding-trailer(1)
-  +at-breakpoint($mouse)
-    +span-columns(6)
-    +squish(1,1)
-    +padding-leader(2)
-  +at-breakpoint($cat)
-    +span-columns(6)
-    +squish(3,3)
 .bio h2
-  +span-columns(4 omega)
   text-align: center
