@@ -8,8 +8,11 @@ $grids: 4
 $gutters: .2
 
 //breakpoints
-$basic: 900px
+$cat: 750px
+$dog: 1100px
 
+$grids: add-grid(6 at $cat)
+$grids: add-grid(6 at $dog)
 
 //vertical rhythm config
 $base-font-size: 16px
@@ -26,10 +29,12 @@ $ms-ration: golden
 
 //whole site styling
 .page
-  +background-grid
+  //+background-grid
+  +breakpoint($dog)
+    +grid-span(4,2)
 header h2, .theteam, .theprocess, .hireus 
   padding: 0 1em 0 1em
-h2
+h2,label
   text-transform: uppercase
 section h2
   +grid-span(4,1)

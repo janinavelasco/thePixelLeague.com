@@ -27,11 +27,15 @@ nav ul li
   +grid-span(4,1)
   background-color: lightgrey
   background: url('http://www.placehold.it/250x250') top left no-repeat
-  background-size: 100% 100%
+  background-size: 100% 100% 
 .hero h1
-  +grid-span(4,1)
+  width: 100%
   +adjust-font-size-to(ms(2))
-  +leader(.5)
-  +trailer(.5)
+  +padding-leader(1)
+  +padding-trailer(1)
   text-align: center
+  max-width: 500px
+  margin: 0 auto
   color: $white
+  +breakpoint($cat)
+    +adjust-font-size-to(ms(3))
