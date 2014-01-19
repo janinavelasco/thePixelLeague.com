@@ -6,5 +6,5 @@ css_dir = 'public/stylesheets'
 sass_dir = 'sass/'
 
 #requires
-require 'susy'
+require 'singularitygs'
 require 'modular-scale'

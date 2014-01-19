@@ -6,7 +6,7 @@ $(function() {
 
   //menu init
   $('.menu-button').click(function (){
-    $('nav').toggle('');
+    $('nav').slideToggle('');
   });
 
   $('.teamlink').click(function (){

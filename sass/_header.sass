@@ -1,36 +1,41 @@
 header
-  +clearfix
-  +padding-leader(1)
-  +padding-trailer(1)
+  +grid-span(4,1)
+header h2
+  +grid-span(3,1)
+  +adjust-font-size-to(ms(0))
 .menu-button
-  +span-columns(1 omega)
+  +grid-span(1,4)
   border: none 
   background: none
   color: $black
   margin: 0
   padding: 0
+.menu-button, nav ul li
+  font-family: $sans
+  +adjust-font-size-to(ms(0))
 nav
-  +span-columns(4 omega)
   display: none
+  +grid-span(4,1)
 nav ul li
   display: inline
-  +span-columns(1)
-  +padding-leader(1)
-  &:last-child
-    +span-columns(1 omega)
-.hero
-  +span-columns(4)
-  +padding-leader(1)
-  +padding-trailer(1)
-  font-family: $serif
-  +adjust-font-size-to(ms(2))
-  +adjust-leading-to(1)
   text-align: center
+  +padding-leader(.5)
+  +float-span(1)
+  &:last-child
+    +float-span(1, 'last')
+.hero
+  +grid-span(4,1)
   background-color: lightgrey
   background: url('http://www.placehold.it/250x250') top left no-repeat
-  background-size: 100% 100%
+  background-size: 100% 100% 
+.hero h1
+  width: 100%
+  +adjust-font-size-to(ms(2))
+  +padding-leader(1)
+  +padding-trailer(1)
+  text-align: center
+  max-width: 500px
+  margin: 0 auto
   color: $white
-  +at-breakpoint($mouse)
+  +breakpoint($cat)
     +adjust-font-size-to(ms(3))
-  +at-breakpoint($cat)
-    +adjust-font-size-to(ms(3.5))

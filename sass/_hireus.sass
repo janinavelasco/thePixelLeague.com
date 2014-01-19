@@ -1,9 +1,13 @@
 .hireus form
-  +span-columns(4 omega)
   +leader(1)
+  +grid-span(4,1)
+  +breakpoint($cat)
+    +grid-span(4,2)
+.hireus label, .hireus input, .hireus textarea
+  +grid-span(4,1)
+  +padding-leader(.5)
 .hireus input, .hireus textarea
   +adjust-font-size-to(ms(1))
-  +span-columns(4)
   border: 1px solid $black
   margin: 0
   padding: 0
@@ -17,5 +21,5 @@ input[type=submit]
   background-color: $grey
 .hireus a
   +adjust-font-size-to(ms(1)) 
-  +span-columns(4 omega)
+  +grid-span(4,1)
   text-align: center
