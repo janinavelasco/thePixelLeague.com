@@ -19,19 +19,32 @@ $base-font-size: 16px
 $base-line-height: 19.2px 
 +establish-baseline()
 
-//typography
-$sans: Helvetica, Arial, sans-serif
-$serif: Times, "Times New Roman", serif
+//fonts
+@font-face
+  font-family: "CrimsonTextRoman"
+  src: url('../fonts/CrimsonText-Roman/crimsontext-roman-webfont.woff')
+
+@font-face
+  font-family: "CrimsonTextRoman"
+  font-style: italic
+  src: url('../fonts/CrimsonText-Italic/crimsontext-italic-webfont.woff')
+
+$serif: 'CrimsonTextRoman', Times, "Times New Roman", serif
 
 //modular scale config
 $ms-base: 16px 
 $ms-ration: golden
 
+i
+  font-style: italic
+
 //whole site styling
 .page
-  //+background-grid
+  font-family: $serif
+.header, .navigation, .theteam, .theprocess, .hireus
   +breakpoint($dog)
-    +grid-span(4,2)
+    +float-span(4)
+    +push(1,1)
 header h2, .theteam, .theprocess, .hireus 
   padding: 0 1em 0 1em
 h2,label
