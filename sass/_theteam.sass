@@ -1,5 +1,7 @@
 .theteam 
   font-family: $serif
+  +breakpoint($dog)
+    +adjust-font-size-to(ms(1))
 .bio
   +grid-span(4,1)
   +breakpoint($cat)

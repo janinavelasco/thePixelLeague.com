@@ -10,8 +10,10 @@ header h2
   color: $black
   margin: 0
   padding: 0
+  font-family: $serif
+  &:focus
+    outline: none
 .menu-button, nav ul li
-  font-family: $sans
   +adjust-font-size-to(ms(0))
 nav
   display: none
@@ -29,6 +31,7 @@ nav ul li
   background: url('http://www.placehold.it/250x250') top left no-repeat
   background-size: 100% 100% 
 .hero h1
+  font-family: $serif
   width: 100%
   +adjust-font-size-to(ms(2))
   +padding-leader(1)
@@ -39,3 +42,5 @@ nav ul li
   color: $white
   +breakpoint($cat)
     +adjust-font-size-to(ms(3))
+  +breakpoint($dog)
+    +adjust-font-size-to(ms(3.8))
